@@ -1,0 +1,8 @@
+// Przykład konfiguracji release pod App Store
+PRODUCT_BUNDLE_IDENTIFIER = com.twojadomena.kolorowankakrasnoludek
+PRODUCT_NAME = Kolorowanka Krasnoludek
+MARKETING_VERSION = 1.0.0
+CURRENT_PROJECT_VERSION = 1
+
+// Dla release użyj HTTPS backendu
+API_BASE_URL = https://api.twojadomena.pl

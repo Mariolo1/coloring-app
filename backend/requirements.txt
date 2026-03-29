@@ -1,0 +1,17 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+pydantic==2.9.2
+pydantic-settings==2.5.2
+pillow==10.4.0
+opencv-python==4.10.0.84
+mediapipe==0.10.14
+reportlab==4.2.2
+numpy==1.26.4
+python-dotenv==1.0.1
+diffusers==0.30.3
+transformers==4.44.2
+accelerate==0.34.2
+safetensors==0.4.5
+torch==2.4.1
+torchvision==0.19.1

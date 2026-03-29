@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Backend data
+backend/data/uploads/*
+backend/data/outputs/*
+backend/data/pdfs/*
+!backend/data/uploads/.gitkeep
+!backend/data/outputs/.gitkeep
+!backend/data/pdfs/.gitkeep
+
+# Flutter
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/

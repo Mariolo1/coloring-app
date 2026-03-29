@@ -1,0 +1,7 @@
+<!-- Wersja produkcyjna App Store. Nie dodawaj NSAllowsArbitraryLoads w release, jeśli nie jest konieczne. -->
+<key>NSCameraUsageDescription</key>
+<string>App uses the camera to take a photo and generate a printable coloring page.</string>
+<key>NSPhotoLibraryUsageDescription</key>
+<string>App uses the photo library so you can select a photo to turn into a coloring page.</string>
+<key>NSPhotoLibraryAddUsageDescription</key>
+<string>App saves the generated PDF coloring page so you can print or share it.</string>
