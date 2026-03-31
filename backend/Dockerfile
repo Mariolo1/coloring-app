@@ -7,6 +7,7 @@ WORKDIR /app
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
+    libgl1 \
     libglib2.0-0 \
     libsm6 \
     libxrender1 \
@@ -19,7 +20,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY app ./app
 COPY .env.example ./.env.example
-RUN mkdir -p data/uploads data/outputs data/pdfs
 
-EXPOSE 8000
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
+RUN mkdir -p /app/data/uploads /app/data/outputs /app/data/pdfs
+
+EXPOSE 8001
+
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8001"]

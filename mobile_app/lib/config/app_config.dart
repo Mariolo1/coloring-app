@@ -5,7 +5,6 @@ class AppConfig {
 
   /// Możesz nadpisać backend przez:
   /// flutter run --dart-define=API_BASE_URL=http://192.168.1.50:8000
-  flutter run --dart-define=API_BASE_URL=http://10.0.0.150:8001
   static const String apiBaseUrl = String.fromEnvironment(
     'API_BASE_URL',
     defaultValue: '',
